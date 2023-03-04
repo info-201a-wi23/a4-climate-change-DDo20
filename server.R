@@ -2,7 +2,7 @@ library(shiny)
 library(dplyr)
 library(plotly)
 
-climate_df <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
+climate_df <- read.csv("~/info201/a4-climate-change-DDo20/owid-co2-data.csv")
 
 
 server <- function(input, output) {

@@ -4,10 +4,10 @@ username:
 account: ddo20
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 8473938
-bundleId: 6914656
+appId: 8474921
+bundleId: 6914704
 url: https://ddo20.shinyapps.io/a4-climate-change-DDo20/
-when: 1677910455.87063
-lastSyncTime: 1677910455.87064
+when: 1677911327.82355
+lastSyncTime: 1677911327.82356
 asMultiple: FALSE
 asStatic: FALSE
