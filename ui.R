@@ -6,7 +6,7 @@ climate_df <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/o
 
 overview_tab <- tabPanel(
   "Overview",
-  fluidPage(theme = bs_theme(bootswatch = "solar"),
+  fluidPage(theme = bs_theme(bootswatch = "minty"),
             p(strong("Introduction")),
             p("In this assignment, we will analyze the CO2 and greenhouse gas emissions dataset “Our World in Data” created. This data has many different sources that allow them to collect this data a list of the sources can be found at: https://github.com/owid/co2-data/ . This data was collected in the hopes of making the problem of CO2 and greenhouse gas emissions understandable and accessible to the general public. One limitation I found within the dataset was at a certain year range there is nonexistent data for many countries with added a lot of empty space that used up space within the dataset. Even with the null values in the dataset, there are still tons of valid data that still present a small hurdle of cleaning it up and sorting through it."),
             p(strong("5 relevant values of interest")),
