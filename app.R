@@ -1,6 +1,10 @@
-
+library(shiny)
 library(bslib)
 library(rsconnect)
+library(ggplot2)
+library(stats)
+library(graphics)
+library(utils)
 source("ui.R")
 source("server.R")
 
