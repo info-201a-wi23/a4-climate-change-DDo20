@@ -2,6 +2,8 @@ library(ggplot2)
 library(plotly)
 library(bslib)
 
+climate_df <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
+
 overview_tab <- tabPanel(
   "Overview",
   fluidPage(theme = bs_theme(bootswatch = "solar"),
